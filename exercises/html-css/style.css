@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif, Verdana;
+    padding: 1px 5px;
+    text-align: center;
+}
+
+body {
+    background-color: #fff;
+}
+
+#author, .section-title, .post-title {
+    color: #ee5253;
+}
+
+.post-title {
+    font-style: italic;
+}
+
+p {
+    color: #222f3e;
+}
+
+a {
+    color: #5f27cd;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #2e86de;
+}
+
+footer {
+    padding: 150px;
+}
