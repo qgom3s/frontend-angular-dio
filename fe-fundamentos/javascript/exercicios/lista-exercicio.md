@@ -66,3 +66,7 @@ Condição de pagamento:
 - acima de 2x no crédito, 10% de juros;
 
 </details>
+
+## Referência
+
+O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
