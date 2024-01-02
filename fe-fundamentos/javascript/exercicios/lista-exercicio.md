@@ -57,6 +57,12 @@ Condição IMC em adultos:
 </details>
 
 <details>
-<summary>Head here...</summary>
+<summary>5. Elaborar um algoritmo que calculo o quanto deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha de pagamento.</summary>
+
+Condição de pagamento:
+- à vista débito, recebe 10% de desconto;
+- à vista dinheiro/PIX, recebe 15% de desconto;
+- até 2x no crédito, sem juros e,
+- acima de 2x no crédito, 10% de juros;
 
 </details>
