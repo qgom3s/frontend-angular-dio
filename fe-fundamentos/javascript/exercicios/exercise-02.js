@@ -7,7 +7,7 @@ const averageFuelConsumption = 12.1; // KM/litro - Sandeiro Stepway.
 /*
   Abordagem:
   - verifica se o tipo de combustível é gasolina -> True
-  - se não for, é etanol
+  - se não for, é etanol -> False
 */
 
 // Calculation of the cost of the trip

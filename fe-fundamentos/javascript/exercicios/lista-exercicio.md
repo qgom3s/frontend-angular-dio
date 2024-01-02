@@ -30,6 +30,16 @@ Deverá ser mostrado no console o valor que será gasto para realizar essa viage
 </details>
 
 <details>
+<summary>3. Faça um algoritmo que, dado 3 notas tiradas por um aluno, retorne a média e a situação do aluno no semestre.</summary>
+
+Desempenho do aluno:
+ - média menor que 5 -> reprovado;
+ - média entre 5 e 7 -> recuperação e,
+ - média maior que 7 -> aprovado.
+
+</details>
+
+<details>
 <summary>Head here...</summary>
 
 </details>
