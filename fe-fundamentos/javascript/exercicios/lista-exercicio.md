@@ -30,12 +30,29 @@ Deverá ser mostrado no console o valor que será gasto para realizar essa viage
 </details>
 
 <details>
-<summary>3. Faça um algoritmo que, dado 3 notas tiradas por um aluno, retorne a média e a situação do aluno no semestre.</summary>
+<summary>3. Fazer um algoritmo que, dado 3 notas tiradas por um aluno, retorne a média e a situação do aluno no semestre.</summary>
 
 Desempenho do aluno:
  - média menor que 5 -> reprovado;
  - média entre 5 e 7 -> recuperação e,
  - média maior que 7 -> aprovado.
+
+</details>
+
+<details>
+<summary>4. Elaborar um programa que, dado o peso e a altura de um adulto, retorne o IMC de acordo com as condições de contorno listadas.</summary>
+
+IMC -> Indice de Massa Corporal.
+
+Fórmula:
+$$IMC = \frac{peso}{altura^2}$$
+
+Condição IMC em adultos:
+- abaixo de 18,5 -> abaixo do peso;
+- entre 18,5 e 25 -> peso normal;
+- entre 25 e 30 -> acima do peso;
+- entre 30 e 40 -> obeso e,
+- acima de 40 -> obesidade grave.
 
 </details>
 
