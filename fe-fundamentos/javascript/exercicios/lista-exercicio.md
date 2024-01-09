@@ -67,6 +67,13 @@ Condição de pagamento:
 
 </details>
 
+<details>
+<summary>6. Refazer o exercício 4 usando funções.</summary>
+
+Veja as condições de contorno do problema na descrição do exercício 4.
+
+</details>
+
 ## Referência
 
 O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
