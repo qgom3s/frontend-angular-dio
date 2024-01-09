@@ -83,6 +83,13 @@ Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
 
 </details>
 
+<details>
+<summary>8. Escreva um programa que tenha uma função que verifique se o usuário é maior ou menor de idade.</summary>
+
+Dica: use função anônima ao invés da função main.
+
+</details>
+
 ## Referência
 
 O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
