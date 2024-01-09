@@ -74,6 +74,15 @@ Veja as condições de contorno do problema na descrição do exercício 4.
 
 </details>
 
+<details>
+<summary>7. Crie uma função que receba o nome como parâmetro e escreva-o como saída.</summary>
+
+Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
+
+- Exemplo: ```function escreverNome(nome) {console.log(nome);}```
+
+</details>
+
 ## Referência
 
 O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
