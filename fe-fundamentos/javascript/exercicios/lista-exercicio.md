@@ -57,7 +57,7 @@ Condição IMC em adultos:
 </details>
 
 <details>
-<summary>5. Elaborar um algoritmo que calculo o quanto deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha de pagamento.</summary>
+<summary>5. Elaborar um algoritmo que calcule o quanto deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha de pagamento.</summary>
 
 Condição de pagamento:
 - à vista débito, recebe 10% de desconto;
@@ -87,6 +87,24 @@ Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
 <summary>8. Escreva um programa que tenha uma função que verifique se o usuário é maior ou menor de idade.</summary>
 
 Dica: use função anônima ao invés da função main.
+
+</details>
+
+<details>
+<summary>9. Use as funções dos exercícios 7 e 8 para criar encapsulamento de funções</summary>
+
+Dica: pode-se utilizar uma função dentro de outra função. Isto é chamado de _encapsulamento_.
+
+</details>
+
+<details>
+<summary>10. Refaça o exercício 5 utilizando funções.</summary>
+
+Condição de pagamento:
+- à vista débito, recebe 10% de desconto;
+- à vista dinheiro/PIX, recebe 15% de desconto;
+- até 2x no crédito, sem juros e,
+- acima de 2x no crédito, 10% de juros;
 
 </details>
 
