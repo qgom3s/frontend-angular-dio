@@ -84,7 +84,7 @@ Veja as condições de contorno do problema na descrição do exercício 4.
 <summary>7. Crie uma função que receba o nome como parâmetro e escreva-o como saída.</summary>
 <br>
 
-Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
+*Dica*: nomeie as funções com um verbo indicando a sua funcionalidade.
 
 - Exemplo: ```function escreverNome(nome) {console.log(nome);}```
 
@@ -94,7 +94,7 @@ Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
 <summary>8. Escreva um programa que tenha uma função que verifique se o usuário é maior ou menor de idade.</summary>
 <br>
 
-Dica: use função anônima ao invés da função main.
+*Dica*: use função anônima ao invés da função main.
 
 </details>
 
@@ -102,7 +102,7 @@ Dica: use função anônima ao invés da função main.
 <summary>9. Use as funções dos exercícios 7 e 8 para criar encapsulamento de funções</summary>
 <br>
 
-Dica: pode-se utilizar uma função dentro de outra função. Isto é chamado de _encapsulamento_.
+*Dica*: pode-se utilizar uma função dentro de outra função. Isto é chamado de _encapsulamento_.
 
 </details>
 
@@ -133,6 +133,22 @@ Os carros possuem os atributos: marca, cor e quantidade média de gasto de combu
 - Para cada pessoa, tem-se os atributos: nome, altura e peso.
 - Essa classe terá um método para retornar o IMC da instância criada.
 - Instancie uma pessoa chamada José, com 1,70 de altura e 70kg.
+
+</details>
+
+<details>
+<summary>13. Crie um programa que de acordo com um número definido, imprima a sua tabuada.</summary>
+<br>
+
+*Dica*: utilizando o recurso ```for``` abordado em estruturas de repetição.
+
+</details>
+
+<details>
+<summary>14. Crie um programa que percorra uma dada lista de números e imprima somente se o número for par.</summary>
+<br>
+
+*Dica*: utilize os conceitos de estrutura de repetição e condicionais.
 
 </details>
 
