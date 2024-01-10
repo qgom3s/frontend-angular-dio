@@ -4,6 +4,7 @@
 
 <details>
 <summary>1. Criar um programa para calcular o valor de uma viagem.</summary>
+<br>
 
 Você deverá usar 3 variáveis, sendo elas:
 
@@ -16,6 +17,7 @@ O gasto estimado da viagem deverá ser mostrado no console.
 
 <details>
 <summary>2. Criar um programa para calcular informações sobre uma viagem.</summary>
+<br>
 
 Você deverá usar 5 variáveis, sendo elas:
 
@@ -31,6 +33,7 @@ Deverá ser mostrado no console o valor que será gasto para realizar essa viage
 
 <details>
 <summary>3. Fazer um algoritmo que, dado 3 notas tiradas por um aluno, retorne a média e a situação do aluno no semestre.</summary>
+<br>
 
 Desempenho do aluno:
  - média menor que 5 -> reprovado;
@@ -41,6 +44,7 @@ Desempenho do aluno:
 
 <details>
 <summary>4. Elaborar um programa que, dado o peso e a altura de um adulto, retorne o IMC de acordo com as condições de contorno listadas.</summary>
+<br>
 
 IMC -> Indice de Massa Corporal.
 
@@ -58,6 +62,7 @@ Condição IMC em adultos:
 
 <details>
 <summary>5. Elaborar um algoritmo que calcule o quanto deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha de pagamento.</summary>
+<br>
 
 Condição de pagamento:
 - à vista débito, recebe 10% de desconto;
@@ -69,6 +74,7 @@ Condição de pagamento:
 
 <details>
 <summary>6. Refazer o exercício 4 usando funções.</summary>
+<br>
 
 Veja as condições de contorno do problema na descrição do exercício 4.
 
@@ -76,6 +82,7 @@ Veja as condições de contorno do problema na descrição do exercício 4.
 
 <details>
 <summary>7. Crie uma função que receba o nome como parâmetro e escreva-o como saída.</summary>
+<br>
 
 Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
 
@@ -85,6 +92,7 @@ Dica: nomeie as funções com um verbo indicando a sua funcionalidade.
 
 <details>
 <summary>8. Escreva um programa que tenha uma função que verifique se o usuário é maior ou menor de idade.</summary>
+<br>
 
 Dica: use função anônima ao invés da função main.
 
@@ -92,6 +100,7 @@ Dica: use função anônima ao invés da função main.
 
 <details>
 <summary>9. Use as funções dos exercícios 7 e 8 para criar encapsulamento de funções</summary>
+<br>
 
 Dica: pode-se utilizar uma função dentro de outra função. Isto é chamado de _encapsulamento_.
 
@@ -99,12 +108,31 @@ Dica: pode-se utilizar uma função dentro de outra função. Isto é chamado de
 
 <details>
 <summary>10. Refaça o exercício 5 utilizando funções.</summary>
+<br>
 
 Condição de pagamento:
 - à vista débito, recebe 10% de desconto;
 - à vista dinheiro/PIX, recebe 15% de desconto;
 - até 2x no crédito, sem juros e,
 - acima de 2x no crédito, 10% de juros;
+
+</details>
+
+<details>
+<summary>11. Crie um programa que utilize uma classe para instanciar carros.</summary>
+<br>
+
+Os carros possuem os atributos: marca, cor e quantidade média de gasto de combustível. Crie também um método que dado a quantidade de km percorrido, o preço do combustível devolva o valor gasto de combustível.
+
+</details>
+
+<details>
+<summary>12. Crie um programa que utilize uma classe para instanciar pessoas.</summary>
+<br>
+
+- Para cada pessoa, tem-se os atributos: nome, altura e peso.
+- Essa classe terá um método para retornar o IMC da instância criada.
+- Instancie uma pessoa chamada José, com 1,70 de altura e 70kg.
 
 </details>
 
