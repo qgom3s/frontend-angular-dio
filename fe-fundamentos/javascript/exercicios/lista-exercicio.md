@@ -152,6 +152,16 @@ Os carros possuem os atributos: marca, cor e quantidade média de gasto de combu
 
 </details>
 
+<details>
+<summary>15. Faça um programa que receba 5 números e retorne o maior número.</summary>
+<br>
+
+Uma sala contém 5 alunos e para cada aluno foi sorteado um número de 1 a 100.
+
+*Dica*: use os conceitos de importação e exportação. 
+
+</details>
+
 ## Referência
 
 O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
