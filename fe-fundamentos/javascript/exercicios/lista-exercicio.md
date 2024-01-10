@@ -136,6 +136,14 @@ Os carros possuem os atributos: marca, cor e quantidade média de gasto de combu
 
 </details>
 
+<details>
+<summary>13. Crie um programa que de acordo com um número definido, imprima a sua tabuada.</summary>
+<br>
+
+Dica: utilizando o recurso ```for``` abordado em estruturas de repetição.
+
+</details>
+
 ## Referência
 
 O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
