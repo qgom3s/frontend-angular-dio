@@ -108,6 +108,13 @@ Condição de pagamento:
 
 </details>
 
+<details>
+<summary>11. Crie um programa que utilize uma classe para instanciar carros.</summary>
+
+Os carros possuem os atributos: marca, cor e quantidade média de gasto de combustível. Crie também um método que dado a quantidade de km percorrido, o preço do combustível devolva o valor gasto de combustível.
+
+</details>
+
 ## Referência
 
 O repositório do curso de está disponível [aqui](https://github.com/digitalinnovationone/javascript-developer-m1).
