@@ -1,5 +1,7 @@
 # Lista de Exercícios Propostos
 
+Exercícios e exemplos propostos para fixação de conceitos básicos de JavaScript.
+
 ## Exercícios
 
 <details>
@@ -149,6 +151,16 @@ Os carros possuem os atributos: marca, cor e quantidade média de gasto de combu
 <br>
 
 *Dica*: utilize os conceitos de estrutura de repetição e condicionais.
+
+</details>
+
+<details>
+<summary>15. Faça um programa que receba 5 números e retorne o maior número.</summary>
+<br>
+
+Uma sala contém 5 alunos e para cada aluno foi sorteado um número de 1 a 100.
+
+*Dica*: use os conceitos de importação e exportação. 
 
 </details>
 
