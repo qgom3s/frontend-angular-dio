@@ -1,4 +1,4 @@
 
-const actions = require('./function-aux');
+const { gets, print } = require('./function-aux');
 
-console.log(actions.gets());
+console.log(gets());
