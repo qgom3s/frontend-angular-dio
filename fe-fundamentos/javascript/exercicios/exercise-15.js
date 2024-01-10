@@ -16,4 +16,17 @@ for (let i = 0; i < sortedSet.length; i++) {
     }
 }
 
-console.log(`The largest number is: ` + bigNum + `.`);
+let text = `The largest number is: ` + bigNum + `.`;
+
+print(text);
+
+/*
+// It eliminates the need to take all the numbers and put them together in a list.
+----------------------------------------------------------------
+for (let i = 0; i < sortedSet.length; i++) {
+    const sortedNum = gets();
+    if (sortedNum > bigNum) {
+        bigNum = sortedNum;
+    }
+}
+*/

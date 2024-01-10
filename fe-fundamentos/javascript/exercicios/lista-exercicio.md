@@ -1,5 +1,7 @@
 # Lista de Exercícios Propostos
 
+Exercícios e exemplos propostos para fixação de conceitos básicos de JavaScript.
+
 ## Exercícios
 
 <details>
