@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding The Future Banco PAN - Desenvolvimento Frontend com Angular</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 50px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s ease;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desenvolvimento Web com JavaScript</h1>
+    <p>Integrando HTML, CSS e JavaScript e rodando o http-server.</p>
+    <button id="changeColorBtn">Clique para Mudar a Cor</button>
+
+    <script>
+        document.getElementById('changeColorBtn').addEventListener('click', function() {
+            // Gera uma cor aleatória
+            var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+
+            // Altera a cor de fundo da página
+            document.body.style.backgroundColor = randomColor;
+
+            // Exibe mensagem no console
+            console.log("Nova Cor!");
+        });
+    </script>
+</body>
+</html>
