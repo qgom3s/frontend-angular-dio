@@ -1,5 +1,7 @@
 const pokemonChain = document.getElementById('pokemonsChain')
 const loadMore =document.getElementById('loadMore')
+
+const maxRecords = 151
 const limit = 12;
 let offset = 0;
 
@@ -31,5 +33,19 @@ loadMoreItems(offset, limit)
 
 loadMore.addEventListener('click', () => {
     offset += limit;
-    loadMoreItems(offset, limit)
+
+    // To avoid limiting first generation pokemons, uncomment the line below and comment the following if-else.
+    // loadMoreItems(offset, limit)
+
+    // Comment the code below and uncomment the line above to remove the generation limitation.
+    const RecordsWithNexPage = offset + limit
+
+    if (RecordsWithNexPage >= maxRecords) {
+        const newLimit = maxRecords - offset
+        loadMoreItems(offset, newLimit)
+
+        loadMore.parentElement.removeChild(loadMore)
+    } else {
+        loadMoreItems(offset, limit)
+    }
 })
