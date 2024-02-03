@@ -1,11 +1,29 @@
 
 const pokemonAPI = {}
 
-pokemonAPI.getDetails = (pokemon) => {
-    return fetch(pokemon.url).then((response) => response.json())
+function pokemonToTemplate(pokemonDetail) {
+    const pokemon = new Pokemon()
+    pokemon.number = pokemonDetail.order
+    pokemon.name = pokemonDetail.name
+
+    const types = pokemonDetail.types.map((typeSlot) => typeSlot.type.name)
+    const [type] = types
+
+    pokemon.types = types
+    pokemon.type = type
+
+    pokemon.photo = pokemonDetail.sprites.other.dream_world.front_default
+
+    return pokemon
 }
 
-pokemonAPI.getPokemons = (offset = 0, limit = 12) => {
+pokemonAPI.getDetails = (pokemon) => {
+    return fetch(pokemon.url)
+        .then((response) => response.json())
+        .then(pokemonToTemplate)
+}
+
+pokemonAPI.getPokemons = (offset = 0, limit = 9) => {
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
 
     return fetch(url)
