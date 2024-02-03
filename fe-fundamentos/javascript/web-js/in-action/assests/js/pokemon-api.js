@@ -23,7 +23,7 @@ pokemonAPI.getDetails = (pokemon) => {
         .then(pokemonToTemplate)
 }
 
-pokemonAPI.getPokemons = (offset = 0, limit = 9) => {
+pokemonAPI.getPokemons = (offset = 0, limit = 12) => {
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
 
     return fetch(url)
