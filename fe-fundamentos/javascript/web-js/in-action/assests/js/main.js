@@ -19,13 +19,6 @@ function pokemonToHTML(pokemon) {
 
 const pokemonChain = document.getElementById('pokemonsChain')
 
-pokemonAPI.getPokemons().then((pokemons) => {
-    const pokemonList = [];
-    
-    for (let index = 0; index < pokemons.length; index++) {
-        const pokemon = pokemons[index];
-        pokemonList.push(pokemonToHTML(pokemon))   
-    }
-
-    console.log(pokemonList);
+pokemonAPI.getPokemons().then((pokemons = []) => {    
+    pokemonChain.innerHTML += pokemons.map(pokemonToHTML).join('');
 })
