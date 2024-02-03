@@ -1,17 +1,20 @@
 
+function getPokemonTypes(pokemonTypes) {
+    return pokemonTypes.map((typeSlot) => `<li class="type">${typeSlot.type.name}</li>`)
+}
+
 function pokemonToHTML(pokemon) {
     return `
         <li class="pokemon">
-            <span class="number">#001</span>
+            <span class="number">#${pokemon.order}</span>
             <span>${pokemon.name}</span>
                     
             <div class="details">
                 <ol class="types">
-                    <li class="type">grass</li>
-                    <li class="type">poison</li>
+                    ${getPokemonTypes(pokemon.types).join('')}
                 </ol>
 
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="${pokemon.name}">
+                <img src="${pokemon.sprites.other.dream_world.front_default}" alt="${pokemon.name}">
             </div>
         </li>
     `
