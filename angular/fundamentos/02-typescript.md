@@ -429,3 +429,5 @@ Aqui estão algumas maneiras pelas quais você pode aproveitar seu conhecimento 
 5. **Migração Gradual**: Se você já tem um projeto JavaScript existente, pode migrá-lo gradualmente para TypeScript, começando com pequenas partes do código e adicionando gradualmente tipagem estática conforme necessário. Isso permite que você aproveite os benefícios do TypeScript sem a necessidade de reescrever todo o seu código.
 
 Reaproveitar o conhecimento de JavaScript ao trabalhar com TypeScript é uma vantagem significativa, pois o TypeScript é uma superset da linguagem JavaScript. Isso significa que todo código JavaScript válido é automaticamente código TypeScript válido.
+
+Para evoluir no aprendizado e uso do TypeScript, faça um bom uso da [documentação](https://www.typescriptlang.org/docs/).
