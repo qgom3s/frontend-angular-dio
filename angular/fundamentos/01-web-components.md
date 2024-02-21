@@ -77,7 +77,7 @@ class MeuComponente extends HTMLElement {
 }
 ```
 
-Com esses passos, você pode definir e criar um componente puro usando Web Components com JavaScript. Isso oferece uma maneira poderosa de criar componentes reutilizáveis e encapsulados que podem ser usados em qualquer aplicativo da web, independentemente do framework.
+Com esses passos, podemos definir e criar um componente puro usando Web Components com JavaScript. Isso oferece uma maneira poderosa de criar componentes reutilizáveis e encapsulados que podem ser usados em qualquer aplicativo da web, independentemente do framework.
 
 ### O que é 'Prop' e como utilizar
 Em Web Components, uma "prop" é uma abreviação de "propriedade" e se refere a um mecanismo que permite passar dados para dentro de um componente personalizado (customizado). As props são usadas para comunicar informações do componente pai para o componente filho.
