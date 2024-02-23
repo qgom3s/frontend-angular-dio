@@ -104,82 +104,82 @@ Então, os itens citados, são apenas algumas das diretivas de atributos dispon�
 Agora, irei criar uma aplicação simples em Angular que demonstra o uso das diretivas estruturais (`*ngIf`, `*ngFor`, `*ngSwitch`) e das diretivas de atributos (`ngModel`, `ngClass`, `ngStyle`). Esta aplicação terá uma lista de itens que podem ser filtrados, destacados e estilizados dinamicamente. Siga os passos abaixo e implemente o código:
 
 1. Crie uma nova aplicação Angular usando o Angular CLI:
-```bash
-ng new minha-aplicacao-angular
-```
+    ```bash
+    ng new minha-aplicacao-angular
+    ```
 
 2. Navegue até o diretório da aplicação recém criado:
-```bash
-cd minha-aplicacao-angular
-```
+    ```bash
+    cd minha-aplicacao-angular
+    ```
 
 3. Abra o arquivo `src/app/app.component.html` e substitua o conteúdo pelo seguinte código:
-```html
-<h1>Minha Aplicação Angular</h1>
+    ```html
+    <h1>Minha Aplicação Angular</h1>
 
-<!-- Exemplo de *ngIf -->
-<div *ngIf="mostrarElemento">
-  <p>Este elemento será mostrado se mostrarElemento for verdadeiro.</p>
-</div>
+    <!-- Exemplo de *ngIf -->
+    <div *ngIf="mostrarElemento">
+    <p>Este elemento será mostrado se mostrarElemento for verdadeiro.</p>
+    </div>
 
-<!-- Exemplo de *ngFor -->
-<ul>
-  <li *ngFor="let item of itens">{{ item }}</li>
-</ul>
+    <!-- Exemplo de *ngFor -->
+    <ul>
+    <li *ngFor="let item of itens">{{ item }}</li>
+    </ul>
 
-<!-- Exemplo de *ngSwitch -->
-<div [ngSwitch]="condicao">
-  <div *ngSwitchCase="'A'">Conteúdo para a condição A</div>
-  <div *ngSwitchCase="'B'">Conteúdo para a condição B</div>
-  <div *ngSwitchDefault>Conteúdo padrão</div>
-</div>
+    <!-- Exemplo de *ngSwitch -->
+    <div [ngSwitch]="condicao">
+    <div *ngSwitchCase="'A'">Conteúdo para a condição A</div>
+    <div *ngSwitchCase="'B'">Conteúdo para a condição B</div>
+    <div *ngSwitchDefault>Conteúdo padrão</div>
+    </div>
 
-<!-- Exemplo de ngModel -->
-<input type="text" [(ngModel)]="nome" placeholder="Digite seu nome">
+    <!-- Exemplo de ngModel -->
+    <input type="text" [(ngModel)]="nome" placeholder="Digite seu nome">
 
-<!-- Exemplo de ngClass -->
-<div [ngClass]="{'destaque': destacar, 'grande': tamanhoGrande}">Este texto pode ser destacado e grande</div>
+    <!-- Exemplo de ngClass -->
+    <div [ngClass]="{'destaque': destacar, 'grande': tamanhoGrande}">Este texto pode ser destacado e grande</div>
 
-<!-- Exemplo de ngStyle -->
-<div [ngStyle]="{'color': corTexto, 'font-size': tamanhoFonte + 'px'}">Este texto pode ter estilo dinâmico</div>
-```
+    <!-- Exemplo de ngStyle -->
+    <div [ngStyle]="{'color': corTexto, 'font-size': tamanhoFonte + 'px'}">Este texto pode ter estilo dinâmico</div>
+    ```
 
 4. Abra o arquivo `src/app/app.component.ts` e adicione o seguinte código para definir as propriedades e métodos necessários:
-```typescript
-import { Component } from '@angular/core';
+    ```typescript
+    import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  mostrarElemento: boolean = true;
-  itens: string[] = ['Item 1', 'Item 2', 'Item 3'];
-  condicao: string = 'A';
-  nome: string = '';
-  destacar: boolean = false;
-  tamanhoGrande: boolean = false;
-  corTexto: string = 'black';
-  tamanhoFonte: number = 16;
-}
-```
+    @Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+    mostrarElemento: boolean = true;
+    itens: string[] = ['Item 1', 'Item 2', 'Item 3'];
+    condicao: string = 'A';
+    nome: string = '';
+    destacar: boolean = false;
+    tamanhoGrande: boolean = false;
+    corTexto: string = 'black';
+    tamanhoFonte: number = 16;
+    }
+    ```
 
 5. Abra o arquivo `src/app/app.component.css` e adicione o seguinte código para estilizar os elementos:
-```css
-.destaque {
-  background-color: yellow;
-}
+    ```css
+    .destaque {
+    background-color: yellow;
+    }
 
-.grande {
-  font-size: 24px;
-}
-```
+    .grande {
+    font-size: 24px;
+    }
+    ```
 
 6. Execute a aplicação usando o Angular CLI:
-```bash
-ng serve
-```
+    ```bash
+    ng serve
+    ```
 
 7. Abra um navegador e navegue até `http://localhost:4200` para ver a aplicação em funcionamento.
 
