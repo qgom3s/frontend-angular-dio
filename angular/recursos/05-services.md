@@ -26,9 +26,9 @@ Os serviços devem ser injetados nos componentes ou em outros serviços para ser
 
    Exemplo:
 
-     ```typescript
-     constructor(private meuServico: MeuServico) {}
-     ```
+   ```typescript
+        constructor(private meuServico: MeuServico) {}
+   ```
 
 Os Observables são objetos que emitem uma sequência de valores ao longo do tempo. São amplamente utilizados para representar fluxos de dados assíncronos, como requisições HTTP e eventos do usuário.
    - São importados do módulo `rxjs` e podem ser criados usando métodos como `of`, `from`, `interval`, entre outros.
